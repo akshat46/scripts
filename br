@@ -1,0 +1,20 @@
+#!/bin/bash
+chmod u+w '/sys/class/backlight/gmux_backlight/brightness'
+cur_bri=$(cat /sys/class/backlight/gmux_backlight/brightness)
+re='^[0-9]+$'
+
+if [ $1 == "up" ] ; then
+    bri=$(($cur_bri + 20))
+    if [ $bri -lt 420 ] ; then
+        `echo $bri > /sys/class/backlight/gmux_backlight/brightness`
+    fi
+fi
+
+if [ $1 == "down" ] ; then
+    bri=$(($cur_bri - 20))
+    if [ $bri -gt 5 ] ; then
+        `echo $bri >  /sys/class/backlight/gmux_backlight/brightness`
+    fi
+else
+    `echo $1 > /sys/class/backlight/gmux_backlight/brightness`
+fi
