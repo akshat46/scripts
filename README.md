@@ -21,6 +21,7 @@ it can do following:
 * flush gateways
 * add default gateway to router interface
 * replace given interface's ip address
+* change dns name 
 
 *Make the script executable using:*
 
