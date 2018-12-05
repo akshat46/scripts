@@ -22,8 +22,12 @@ it can do following:
 * add default gateway to router interface
 * replace given interface's ip address
 
+*Make the script executable using:*
+
+`sudo chmod +x setmeupfam`
+
   #### Options
-  
+
   *Parameters*                    |*Detail*   
   |---                            |---
   **-h, --help**                  |show this help message and exit   
