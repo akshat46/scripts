@@ -13,7 +13,7 @@ Input: `sudo br <brightness value between 1-420>`
 
 May require a `NOPASSWD` rule to bypass passwords everytime.
 
-## setmeupfam
+## setmeupfam: A script to run network setup commands on linux
 
 a script for setting up a pi/linux device for routing, dns.
 it can do following:
