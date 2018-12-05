@@ -23,13 +23,14 @@ it can do following:
 * replace given interface's ip address
 
   ####Options
-  |*Parameters*                    |*Detail*   |
-  |---                             |---|
-  |**-h, --help**                  |show this help message and exit   |
-  |**-l, --laptop-ip**             | your device(laptop) ip-address  |
-  |**-i, --laptop-interface**      |name of the (pi) interface that is connected with your device(laptop) (default: eth0)   |
-  |**-r, --router-interface**      |name of the interface that is connected with router   |
-  |**-changeIP**                                                       |change ip address of an interface. specify ip address with -l and interface with -j |
-  |**-j, --laptop-pi-interface**   |name of the device interface whose ip address you want to change. this command is used with -changeIP (default: eth0)   |
-  |**-dns DNS**                    |your dns name   |
-  |**--no-routing**                |include this if you want to use the script to add dns name only. no route manipulation will be done   |
+  
+  *Parameters*                    |*Detail*   
+  |---                            |---
+  **-h, --help**                  |show this help message and exit   
+  **-l, --laptop-ip**             | your device(laptop) ip-address  
+  **-i, --laptop-interface**      |name of the (pi) interface that is connected with your device(laptop) (default: eth0)
+  **-r, --router-interface**      |name of the interface that is connected with router   
+  **-changeIP**                                                       |change ip address of an interface. specify ip address with -l and interface with -j
+  **-j, --laptop-pi-interface**   |name of the device interface whose ip address you want to change. this command is used with -changeIP (default: eth0)
+  **-dns DNS**                    |your dns name
+  **--no-routing**                |include this if you want to use the script to add dns name only. no route manipulation will be done
