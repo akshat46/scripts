@@ -23,6 +23,8 @@ it can do following:
 * replace given interface's ip address
 * change dns name 
 
+*Use `scp` to move file from host to PI*
+
 *Make the script executable using:*
 
 `sudo chmod +x setmeupfam`
